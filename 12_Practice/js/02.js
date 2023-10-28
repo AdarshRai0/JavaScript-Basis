@@ -301,3 +301,44 @@ while loop ka use kiya gaya hai factorial calculate karne ke liye.
 i ko 1 se start kiya gaya hai, aur har bar loop mein factorial ko i se multiply kiya jata hai.
 
 */
+
+/********************************************************************************/
+
+// Question 5: Ek array ke elements ko double karke naye array mein store karein.
+
+// let arr = [2,4,6,8,10]
+// console.log(arr.length)
+// let doubledArr = [];
+// for(i=0;i < arr.length; i++){
+//     doubledArr.push(arr[i] * 2);
+// }
+// console.log("Doubled Array:", doubledArr);
+
+/*
+Explanation:
+
+for loop ka use kiya gaya hai original array ke elements ko double karke naye array mein store karne ke liye.
+push method ka use kiya gaya hai naye array mein elements ko add karne ke liye.
+*/
+
+/********************************************************************************/
+
+// Question 6: Ek array ke maximum element ko find karein.
+
+// let arr = [30, 5, 8, 45, 3];
+// let maxElement = arr[0];
+// console.log(maxElement);
+// for(let i = 1; i < arr.length; i++) {
+//     if(arr[i] > maxElement) {
+//         maxElement = arr[i];
+//     }
+// }
+// console.log("Maximum Element:", maxElement);
+
+
+/*
+Explanation:
+
+for loop ka use kiya gaya hai array ke elements ko check karne ke liye.
+maxElement variable mein pehla element assign kiya jata hai. Fir loop mein har element ko check karke agar vo maxElement se bada hai toh maxElement ko update kiya jata hai.
+*/
